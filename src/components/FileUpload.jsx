@@ -263,8 +263,8 @@ const FileUpload = () => {
   const [error, setError] = useState(null);
 
   // Change this to your local backend URL
-  const API_BASE_URL = 'http://localhost:3001';
-  // const API_BASE_URL = 'https://imagecompressor-production-db2d.up.railway.app'; // Production URL
+  //const API_BASE_URL = 'http://localhost:3001';
+   const API_BASE_URL = 'https://imagecompressor-production-db2d.up.railway.app'; // Production URL
 
   const formatFileSize = (bytes) => {
     if (!bytes || bytes === 0) return '0 KB';
